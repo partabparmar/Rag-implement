@@ -1,12 +1,13 @@
 import streamlit as st
-from langchain.prompts import ChatPromptTemplate
+
 from langchain_community.llms import Ollama
-from langchain import HuggingFacePipeline, PromptTemplate
+from langchain import  PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.document_loaders import JSONLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceInstructEmbeddings, HuggingFaceEmbeddings
+from langchain.embeddings import  HuggingFaceEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
 
 # Constants
 DEFAULT_SYSTEM_PROMPT = """
