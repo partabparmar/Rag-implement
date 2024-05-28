@@ -35,7 +35,6 @@ def split_documents(data, chunk_size=1024, chunk_overlap=64):
 
 def create_embeddings():
     model_name="hkunlp/instructor-xl"
-    model_kwargs = {'device': 'cpu'}
     encode_kwargs = {'normalize_embeddings': False}
     hf = HuggingFaceEmbeddings(
     model_name=model_name,
