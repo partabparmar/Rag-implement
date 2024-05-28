@@ -1,4 +1,3 @@
-ollama
 streamlit
 transformers
 langchain
