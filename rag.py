@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_core.prompts import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate
 from langchain_community.llms import Ollama
 from langchain import HuggingFacePipeline, PromptTemplate
 from langchain.chains import RetrievalQA
