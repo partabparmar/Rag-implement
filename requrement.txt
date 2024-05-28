@@ -1,9 +1,0 @@
-ollama
-streamlit
-transformers
-langchain
-langchain_community
-langchain-cli
-chromadb
-InstructorEmbedding
-sentence-transformers
