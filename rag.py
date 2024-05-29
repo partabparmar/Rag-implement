@@ -39,7 +39,6 @@ def create_embeddings():
     encode_kwargs = {'normalize_embeddings': False}
     hf = HuggingFaceEmbeddings(
     model_name=model_name,
-    model_kwargs=model_kwargs,
     encode_kwargs=encode_kwargs
     )
     return hf
